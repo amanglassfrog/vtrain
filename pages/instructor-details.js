@@ -45,7 +45,7 @@ export default function InstructorDetails() {
                                                     </li>
                                                     <li>
                                                         <i className="flaticon-email" />
-                                                        <Link href="mailto:dora.girish@gmail.com">dora.girish@gmail.com</Link>
+                                                        <Link href="mailto:vglobalmbbs@gmail.com">vglobalmbbs@gmail.com</Link>
                                                     </li>
                                                     <li>
                                                         <i className="flaticon-group-1" />

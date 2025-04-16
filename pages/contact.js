@@ -1,7 +1,88 @@
+"use client"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { useState } from "react";
+import axios from "axios";
 
 export default function Contact() {
+     const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    Course: "",
+    message: "",
+  });
+
+  const [error, setError] = useState(""); // To store any validation errors
+  const [isLoading, setIsLoading] = useState(false); // For showing the loading spinner
+  const [successMessage, setSuccessMessage] = useState(""); // To store success message
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  // Validation function for frontend
+  const validateForm = () => {
+    // Name: Only alphabets (no numbers or special characters)
+    const nameRegex = /^[a-zA-Z\s]+$/;
+    if (!nameRegex.test(formData.name)) {
+      return "Name should contain only alphabets and spaces.";
+    }
+
+    // Phone: Must be exactly 10 digits
+    const phoneRegex = /^[0-9]{10}$/;
+    if (!phoneRegex.test(formData.phone)) {
+      return "Phone number must be exactly 10 digits.";
+    }
+
+    // Email: Basic email validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(formData.email)) {
+      return "Please enter a valid email address.";
+    }
+
+    // Course: Only alphabets (no numbers or special characters)
+    const courseRegex = /^[a-zA-Z\s]+$/;
+    if (!courseRegex.test(formData.Course)) {
+      return "Course name should contain only alphabets and spaces.";
+    }
+
+    return ""; // No errors
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    // Validate form
+    const validationError = validateForm();
+    if (validationError) {
+      setError(validationError); // Set error message if validation fails
+      return;
+    }
+    setError(""); // Clear any previous error messages
+
+    setIsLoading(true); // Start the loading spinner
+
+    try {
+      const response = await axios.post("/api/sendEmail", formData);
+      setSuccessMessage(response.data.message); // Set success message
+      setIsLoading(false); // Stop the loading spinner
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        Course: "",
+        message: "",
+      }); // Clear form after successful submission
+    } catch (error) {
+      setIsLoading(false); // Stop the loading spinner
+      alert("Failed to send the message");
+    }
+  };
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact With Us">
@@ -36,7 +117,7 @@ export default function Contact() {
                                                     <i className="flaticon-email" />
                                                 </div>
                                                 <div className="content">
-                                                    <Link href="mailto:dora.girish@gmail.com">dora.girish@gmail.com</Link>
+                                                    <Link href="mailto:vglobalmbbs@gmail.com">vglobalmbbs@gmail.com</Link>
                                                 </div>
                                             </li>
                                         </ul>
@@ -45,34 +126,77 @@ export default function Contact() {
                                 <div className="col-lg-7">
                                     <div className="contact-form-wrap">
                                         <h4 className="title">Get in Touch</h4>
-                                        <form id="contact-form" action="assets/mail.php" method="POST">
-                                            <div className="row">
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input name="name" type="text" placeholder="Name *" required />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input name="email" type="email" placeholder="E-mail *" required />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input name="phone" type="number" placeholder="Phone *" required />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input name="subject" type="text" placeholder="Your Subject *" required />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="form-grp">
-                                                <textarea name="message" placeholder="Message" required />
-                                            </div>
-                                            <button type="submit" className="btn">Send Message</button>
-                                        </form>
+                                      <form onSubmit={handleSubmit} id="contact-form" method="POST">
+      {error && <div style={{ color: "red" }}>{error}</div>} {/* Display error message */}
+      {successMessage && <div style={{ color: "green" }}>{successMessage}</div>} {/* Display success message */}
+
+      <div className="row">
+        <div className="col-md-6">
+          <div className="form-grp">
+            <input
+              name="name"
+              type="text"
+              placeholder="Name *"
+              required
+              value={formData.name}
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="form-grp">
+            <input
+              name="email"
+              type="email"
+              placeholder="E-mail *"
+              required
+              value={formData.email}
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="form-grp">
+            <input
+              name="phone"
+              type="number"
+              placeholder="Phone *"
+              required
+              value={formData.phone}
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="form-grp">
+            <input
+              name="Course"
+              type="text"
+              placeholder="Your Course *"
+              required
+              value={formData.Course}
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+      </div>
+      <div className="form-grp">
+        <textarea
+          name="message"
+          placeholder="Message"
+          required
+          value={formData.message}
+          onChange={handleChange}
+        />
+      </div>
+      <button type="submit" className="btn" disabled={isLoading}>
+        {isLoading ? (
+          <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        ) : (
+          "Send Message"
+        )}
+      </button>
+    </form>
                                         <p className="ajax-response mb-0" />
                                     </div>
                                 </div>

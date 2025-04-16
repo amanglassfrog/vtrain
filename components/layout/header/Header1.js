@@ -12,7 +12,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="col-md-6">
                                 <ul className="tg-header__top-info list-wrap">
                                     <li><i className="flaticon-pin" /> <span>94, Gobind Nagar , Racecourse (Near Gurudwara) Dehradun 248001</span></li>
-                                    <li><i className="flaticon-email" /> <Link href="mailto:dora.girish@gmail.com">dora.girish@gmail.com</Link></li>
+                                    <li><i className="flaticon-email" /> <Link href="mailto:vglobalmbbs@gmail.com">vglobalmbbs@gmail.com</Link></li>
                                 </ul>
                             </div>
                             <div className="col-md-6">
