@@ -27,14 +27,22 @@ export default function About1() {
                             <div className="about__content">
                                 <div className="section__title">
                                     <span className="sub-title">Get To Know About Us</span>
-                                    <h2 className="title tg-svg">Discover  <span className="position-relative"><span className="svg-icon" id="svg-3" data-svg-icon="assets/img/icons/title_shape.svg" />Expert Guidance </span>
-                                        for Your Global Education Journey</h2>
+                                    <h2 className="title tg-svg">Unlock Your <span className="position-relative"><span className="svg-icon" id="svg-3" data-svg-icon="assets/img/icons/title_shape.svg" />Global Education </span>
+                                           Dream with Vtrain!</h2>
                                 </div>
-                                <p className="desc">With over 23+ years of experience, Vtrain Global Studies has helped countless students apply to top universities in the USA, UK, and France. Our team of 2,000+ expert consultants offers personalized guidance for your SOP, LOR, and other application documents, ensuring your submission stands out.
+                                <p className="desc">Aiming for the USA, UK, or MBBS in Europe/Asia? Vtrain Global Studies makes your international study journey seamless. For 20+ years, we've been your dedicated advocate, prioritizing your best interests.
+We offer comprehensive support: personalized counseling, strategic admissions, simplified visa guidance, and a smooth transition (airport pickup, accommodation, and orientation).
+                                    <ul>
+                                       <strong> Why Vtrain?</strong>
+<li><strong>Your Advocate:</strong>We work for you.</li> 
+<li><strong>Strategic Applications:</strong> Maximizing your chances at the right universities.</li>
+<li><strong>Scholarship Success:</strong> Helping students secure significant funding in the USA & UK.</li>
+<li><strong>Expert Guidance:</strong> Over two decades of trusted experience.</li>
+<li><strong>Credible Partner:</strong> Registered MSME company.</li>
 
-We’ve successfully supported 18,000+ students in gaining admission to prestigious programs in fields like Data Science, AI, Robotics, MBA, and more. Whether applying to Ivy League or top European universities, we provide 1,500+ top lessons and 3,200+ pro tips to enhance your application.
+</ul>Your global future starts here. Let Vtrain make it happen!
 
-At Vtrain Global Studies, we equip you with the expertise needed to create impactful application documents that resonate with admissions committees.</p>
+                                </p>
                                 <ul className="about__info-list list-wrap">
                                     <li className="about__info-list-item">
                                         <div className="icon"><i className="flaticon-support" /></div>
