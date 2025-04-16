@@ -11015,4 +11015,6 @@ body {
             display: flex;
             justify-content: flex-end;
 }
-
+.cimage{
+    height: 25rem;
+}
