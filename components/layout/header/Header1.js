@@ -43,9 +43,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                         
                                        
                                     </nav>
-                                    <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                                    <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex align-items-center">
                                             <ul className="navigation new">
-                                                <li className="active "><Link href="#">Home</Link>
+                                                <li className="active "><Link href="/">Home</Link>
+                                                   
+                                            </li>
+                                            <li ><Link href="/mbbs-abroad" className="mbbs">MBBS Abroad</Link>
                                                    
                                                 </li>
                                                 <li className=""><Link href="/courses">Courses</Link>

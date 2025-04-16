@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import About1 from "@/components/sections/About1"
+
 import Banner1 from "@/components/sections/Banner1"
 import Blog1 from "@/components/sections/Blog1"
 import Brand1 from "@/components/sections/Brand1"
@@ -12,15 +13,32 @@ import Testimonial3 from "@/components/sections/Testimonial3"
 import QuickAction1 from "@/components/sections/QuickAction1"
 import Fact2 from "@/components/sections/Fact2"
 import Course3 from "@/components/sections/Course3"
+import { useState, useEffect } from "react";
+import PopupModal from "@/components/elements/Modal"
 
 
 
 export default function Home1() {
+    const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    // Show the popup when the page loads
+    setShowPopup(true);
+
+    // Optionally, hide the popup after 10 seconds
+    // 10 seconds delay for the popup
+  }, []);
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
     return (
         <>
             <Layout headerStyle={1} footerStyle={1}>
+                {showPopup && <PopupModal closePopup={closePopup} />}
                 <Banner1 />
                 <Brand1 />
+              
                 <QuickAction1 />
                  <Course3 />
                 

@@ -16,14 +16,15 @@ export default function Course3() {
                                 </div>
                             </div>
                             <div className="col-lg-5">
-                                <div className="tg-button-wrap mt-4 mt-lg-0 justify-content-center justify-content-lg-end">
-                                    <Link href="/courses" className="btn btn-border tg-svg"><span className="text">View All
-                                        Courses</span> <span className="svg-icon" id="course-btn" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
                     <CourseSlider1 />
+                    <div className="tg-button-wrap mt-4 mt-lg-0 justify-content-center ">
+                                    <Link href="/courses" className="btn btn-border tg-svg"><span className="text">View All
+                                        Courses</span> <span className="svg-icon" id="course-btn" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>
+                                </div>
                 </div>
                 <div className="courses__shapes">
                     <div className="courses__shapes-item alltuchtopdown"><img src="/assets/img/courses/course_shape01.png" alt="shape" /></div>

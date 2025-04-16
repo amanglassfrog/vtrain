@@ -3,9 +3,9 @@ import Slider from "react-slick"
 const settings = {
     dots: false,
     infinite: true,
-    speed: 600,
+    speed: 1000,
     autoplay: false,
-    arrows: false,
+    arrows: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: (

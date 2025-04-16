@@ -83,7 +83,7 @@ const settings = {
 export default function CourseSlider1() {
     return (
         <>
-            <Slider {...settings} className="row courses-slider-active">
+            <section {...settings} className="row courses-slider-active">
                 <div className="col">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
@@ -181,7 +181,7 @@ export default function CourseSlider1() {
                     </div>
                 </div>
                 
-            </Slider>
+            </section>
         </>
     )
 }

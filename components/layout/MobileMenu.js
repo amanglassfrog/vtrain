@@ -23,7 +23,10 @@ export default function MobileMenu() {
         <>
             <ul className="navigation">
                 <li className="active menu-item-has-children"><Link href="/">Home </Link>
-                     </li>
+                </li>
+                <li ><Link href="/mbbs-abroad">MBBS Abroad</Link>
+                                                   
+                                                </li>
                 <li className=""><Link href="#">Courses</Link>
                    </li>
                 <li className=""><Link href="/about-us">About Us</Link>
