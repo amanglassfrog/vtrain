@@ -20,11 +20,24 @@ export default function Footer1() {
                                             <li className="number">+91 9999 256 360 <br></br>
 +91 6396 745 354</li>
                                             <li className="socials">
-                                                <Link href="#"><i className="fab fa-facebook-f" /></Link>
-                                                <Link href="#"><i className="fab fa-twitter" /></Link>
-                                                <Link href="#"><i className="fab fa-whatsapp" /></Link>
-                                                <Link href="#"><i className="fab fa-linkedin-in" /></Link>
-                                                <Link href="#"><i className="fab fa-youtube" /></Link>
+                                                <Link href="https://www.facebook.com/profile.php?id=100064516433959"><i className="fab fa-facebook-f" /></Link>
+                                                <Link href="https://www.instagram.com/girishkumardora/"><i className="fab fa-instagram" /></Link>
+                                                {/* <Link href="#"><i className="fab fa-twitter" /></Link> */}
+                                               <Link
+  href="https://web.whatsapp.com/send?phone=+919999256360&text=Hello"
+  className="d-none d-md-block"
+>
+  <i className="fab fa-whatsapp" />
+</Link>
+
+{/* Mobile Only: api.whatsapp.com */}
+<Link
+  href="https://api.whatsapp.com/send?phone=+919999256360&text=Hello"
+  className="d-block d-md-none"
+>
+  <i className="fab fa-whatsapp" />
+</Link>
+
                                             </li>
                                         </ul>
                                     </div>
@@ -37,8 +50,7 @@ export default function Footer1() {
                                         <li><Link href="/about-us">About</Link></li>
                                         <li><Link href="/contact">Contact</Link></li>
                                         
-                                        <li><Link href="#">Conditions</Link></li>
-                                        <li><Link href="#">Privacy Policy</Link></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -66,14 +78,7 @@ export default function Footer1() {
                                     <p>Copyright © {new Date().getFullYear()}  Vtrain Global Studies. All rights reserved.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="copyright__menu">
-                                    <ul className="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
-                                        <li><Link href="#">Privacy Policy</Link></li>
-                                        <li><Link href="#">Terms  Conditions</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

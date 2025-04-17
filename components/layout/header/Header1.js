@@ -17,12 +17,25 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                             </div>
                             <div className="col-md-6">
                                 <ul className="tg-header__top-social list-wrap">
+                                     <li><Link href="https://www.facebook.com/profile.php?id=100064516433959"><i className="fab fa-facebook-f" /></Link></li>
+                                               <li> <Link href="https://www.instagram.com/girishkumardora/"><i className="fab fa-instagram" /></Link></li>
+                                                {/* <Link href="#"><i className="fab fa-twitter" /></Link> */}
+                                             <li>  <Link
+  href="https://web.whatsapp.com/send?phone=+919999256360&text=Hello"
+  className="d-none d-md-block"
+>
+  <i className="fab fa-whatsapp" />
+</Link></li>
+
+{/* Mobile Only: api.whatsapp.com */}
+<li><Link
+  href="https://api.whatsapp.com/send?phone=+919999256360&text=Hello"
+  className="d-block d-md-none"
+>
+  <i className="fab fa-whatsapp" />
+</Link></li>
                                     
-                                    <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
-                                    <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
-                                    <li><Link href="#"><i className="fab fa-whatsapp" /></Link></li>
-                                    <li><Link href="#"><i className="fab fa-linkedin-in" /></Link></li>
-                                    <li><Link href="#"><i className="fab fa-youtube" /></Link></li>
+                                   
                                 </ul>
                             </div>
                         </div>

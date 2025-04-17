@@ -31,7 +31,7 @@ export default function Banner1() {
                         </div>
                         <div className="col-lg-6">
                             <div className="banner__images">
-                                <img src="/doc3.png" alt="img" className="main-img" />
+                                <img src="/doc6.png" alt="img"  />
                                 <img src="/assets/img/banner/bshape_03.png" alt="shape" className="shape" data-aos="fade-down-right" data-aos-delay={1200} />
                                 <img src="/assets/img/banner/bshape_04.png" alt="shape" className="shape" data-aos="fade-right" data-aos-delay={1200} />
                                 <img src="/assets/img/banner/bshape_05.png" alt="shape" className="shape" data-aos="fade-down-left" data-aos-delay={1200} />

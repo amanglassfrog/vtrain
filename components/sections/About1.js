@@ -6,10 +6,10 @@ export default function About1() {
             <section className="about-area tg-motion-effects section-py-120">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
-                        <div className="col-xl-6 col-lg-8">
+                        <div className="col-xl-5 col-lg-6">
                             <div className="about__images">
                                 <img className="small-img tg-motion-effects3" src="/assets/img/others/about_img02.png" alt="img" />
-                                <img className="big-img" src="/assets/img/others/about_img01.png" alt="img" />
+                                <img className="big-img" src="/doc7.png" alt="img" />
                                 <div className="about__exp">
                                     <svg width={126} height={108} viewBox="0 0 126 108" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 10C0 4.47715 4.47715 0 10 0H110.996C116.321 0 120.713 4.17312 120.983 9.4914L125.429 96.7793C125.733 102.754 120.758 107.657 114.789 107.267L9.34719 100.369C4.08901 100.025 0 95.6593 0 90.3899V10Z" fill="currentcolor" />
@@ -23,7 +23,7 @@ export default function About1() {
                                 </svg>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-7">
+                        <div className="col-xl-7 col-lg-6">
                             <div className="about__content">
                                 <div className="section__title">
                                     <span className="sub-title">Get To Know About Us</span>

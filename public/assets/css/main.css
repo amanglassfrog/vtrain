@@ -3287,7 +3287,7 @@ textarea {
     width: 126px;
     height: 108px;
     left: 58px;
-    top: 50px;
+    top: 0px;
     text-align: center;
     display: -webkit-box;
     display: -moz-box;
@@ -3493,7 +3493,7 @@ textarea {
 }
 
 .about-area-two {
-    padding: 140px 0;
+    padding: 50px 0;
 }
 
 @media (max-width: 991.98px) {
@@ -3554,7 +3554,6 @@ textarea {
 }
 
 .about__images-wrap .column {
-    flex: 0 0 auto;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
