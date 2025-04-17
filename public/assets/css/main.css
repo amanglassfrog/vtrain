@@ -287,7 +287,8 @@ textarea {
     }
         .popup-container {
             display: flex;
-            flex-direction: column !important;}
+            flex-direction: column !important;
+        height: auto;}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -297,6 +298,7 @@ textarea {
         .popup-container {
             display: flex;
             flex-direction: column !important;
+            height: auto;
         }
 }
 
