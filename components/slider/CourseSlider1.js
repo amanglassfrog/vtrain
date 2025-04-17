@@ -84,7 +84,7 @@ export default function CourseSlider1() {
     return (
         <>
             <section {...settings} className="row courses-slider-active">
-                <div className="col">
+                <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
                             <Link href="/course-details" className="shine__animate-link">
@@ -108,7 +108,7 @@ export default function CourseSlider1() {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
                             <Link href="/course-details" className="shine__animate-link">
@@ -132,7 +132,7 @@ export default function CourseSlider1() {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
                             <Link href="/course-details" className="shine__animate-link">
@@ -156,7 +156,7 @@ export default function CourseSlider1() {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
                             <Link href="/course-details" className="shine__animate-link">
