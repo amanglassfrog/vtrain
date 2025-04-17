@@ -98,11 +98,7 @@ export default function BrandSlider1() {
                         <Link href="#"><img src="/u10.png" alt="brand" /></Link>
                     </div>
                 </div>
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u11.png" alt="brand" /></Link>
-                    </div>
-                </div>
+                
                 <div className="col">
                     <div className="brand__item">
                         <Link href="#"><img src="/u12.png" alt="brand" /></Link>
