@@ -10,10 +10,12 @@ export default function Categories1() {
                             <div className="categories__title-wrap text-center text-xl-start">
                                 <div className="section__title">
                                     <span className="sub-title">Unique online courses</span>
-                                    <h2 className="title tg-svg">Browse By <span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon="assets/img/icons/title_shape.svg" />Categories</span>
+                                    <h2 className="title tg-svg">
+Find Your Perfect Path:
+<span className="position-relative"><span className="svg-icon" id="svg-5" data-svg-icon="assets/img/icons/title_shape.svg" /> Explore Study Abroad Categories</span>
                                     </h2>
                                 </div>
-                                <p>At Vtrain Global Studies, we offer personalized guidance and support for a wide range of academic fields, ensuring that you get the expert advice you need for your university applications. Whether you’re pursuing a Data Science degree, an MBA, or a BTech, we help you with crafting standout SOPs, LORs, and application strategies that fit your chosen category.</p>
+                                <p>Want to be a doctor, looking to conquer Data Science, ace your MBA, or master BTech abroad? At Vtrain Global Studies, we offer personalized guidance for diverse academic fields. We'll equip you with standout SOPs, compelling LORs, and winning application strategies tailored to your chosen category.</p>
                                 <div className="tg-button-wrap justify-content-center justify-content-xl-start">
                                     <Link href="/courses" className="btn btn-border tg-svg"><span className="text">All
                                         Categories</span> <span className="svg-icon" id="svg-6" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>

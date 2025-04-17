@@ -9,8 +9,7 @@ export default function Fact2() {
                         <div className="col-xl-5 col-lg-7 col-md-9">
                             <div className="section__title text-center mb-50">
                                 <span className="sub-title">Worldwide Our Achievement</span>
-                                <h2 className="title tg-svg">Grow You <span className="position-relative"><span className="svg-icon" id="fact-title" data-svg-icon="assets/img/icons/title_shape.svg" />Skills</span>To Advance
-                                    Your Career path</h2>
+                                <h2 className="title tg-svg">It’s Time To Grow Your Skills & Build Your Career </h2>
                             </div>
                         </div>
                     </div>

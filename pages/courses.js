@@ -88,13 +88,8 @@ export default function Courses() {
                                             <span className="sub-title">MBA</span>
                                             <h2 className="title tg-svg">MBA (Master of Business Administration)</h2>
                                         </div>
-                                        <p className="fw-medium">The MBA program is designed to develop the managerial and leadership skills required to excel in business and corporate sectors. </p>
-                                        <p> It offers specializations in areas such as Finance, Marketing, and Operations Management.</p>
-                                                                            <p>For More Information contact us today.</p>
-    
-                                    <div className="tg-button-wrap">
-                                            <Link href="/contact" className="btn tg-svg"><span className="text">Contact us</span> <span className="svg-icon" id="about-btn" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>
-                                        </div>
+                                        <p> Thinking about boosting your career with a Master of Business Administration from a top university overseas? This guide will tell you about the usual documents and qualifications you'll need to apply for MBA programs in the United States, the United Kingdom, and France. This isn't a business lesson, but it's the first step in planning your international MBA journey!</p>
+                                                                            
                                     </div>
                                 </div>
                                 <div className="col-xl-7 col-lg-6 col-md-11">
@@ -109,6 +104,32 @@ export default function Courses() {
                                             <img src="/assets/img/objects/about_shape03.png" alt="img" className="about-shape-03 rotateme" />
                                         </div>
                                     </div>
+                            </div>
+                            <div className="col-xl-12 col-lg-12 pt-10">
+                                    <div className="about__title-wrap">
+                                        <div className="section__title">
+                                            <span className="sub-title">Your Path to a World-Class Business Degree
+</span>
+                                            
+                                        </div>
+                                        <p> Just like understanding different markets is important in business, knowing what each country wants for MBA applications will help you succeed. Let's look at the general things you'll need.
+</p>
+                                                                            
+                                    <p>Quick Guide to Your Global MBA Application </p> 
+                                    <ul>
+<li><strong>Common Essentials:</strong>Bachelor's degree + transcripts, 2-5 years work experience, GMAT/GRE (check requirements), English proficiency (if needed), essays, 2-3 recommendations, resume/CV, interview (possibly), proof of funds, and a valid passport.</li> 
+<li><strong>USA Highlights:</strong> Degree, GMAT/GRE (sometimes waived), TOEFL/IELTS (if applicable), resume, essays, 2 recommendations, transcripts.</li>
+<li><strong>UK Highlights:</strong> Recognized degree (3-year min.), 2-3 years work experience (management preferred), GMAT (sometimes GRE/own test), IELTS (6.0-6.5) or similar, statement of purpose, 2-3 recommendations.</li>
+<li><strong>France Highlights:</strong> Equivalent degree, GMAT/GRE (sometimes waived/own test), TOEFL/IELTS/PTE (if applicable), resume, essays, recommendations, transcripts, and proof of funds.</li>
+<li><strong>Key Takeaway:</strong> This is a starting point. Always verify specific requirements with your target universities in the USA, UK, and France. Plan your global MBA journey today!</li>
+
+              </ul>                      
+                                </div>
+                                <p>For More Information contact us today.</p>
+    
+                                    <div className="tg-button-wrap">
+                                            <Link href="/contact" className="btn tg-svg"><span className="text">Contact us</span> <span className="svg-icon" id="about-btn" data-svg-icon="assets/img/icons/btn-arrow.svg" /></Link>
+                                        </div>
                                 </div>
                             </div>
                         </div>

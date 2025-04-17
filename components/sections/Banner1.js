@@ -13,7 +13,7 @@ export default function Banner1() {
                                 <span className="sub-title" >100% Satisfaction
                                     Guarantee</span>
                                 <h3 className="title tg-svg"  >Step into medicine with an  <span className="position-relative"><span className="svg-icon" id="svg-2" data-svg-icon="assets/img/icons/title_shape.svg" />MBBS degree abroad. </span> </h3>
-                                <p >Your Launchpad for International Success—Ace IELTS/PTE, Master Foreign Languages, Secure Your Visa, and Build a Global Future with Hello Institute.</p>
+                                <p >Established in 2002, Vtrain Global Studies brings over 23 years of ethical and transparent guidance to students aspiring for international education. We specialize in facilitating admissions to quality MBBS programs in destinations like Russia, Kyrgyzstan, and more, alongside pathways to renowned institutions in the USA and UK.</p>
                                 <div className="banner__btn-wrap"  >
                                     <div className="tg-button-wrap">
                                         <Link href="/courses" className="btn tg-svg"><span className="text">Explore Courses</span>
