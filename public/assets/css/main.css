@@ -285,12 +285,19 @@ textarea {
     .container {
         max-width: 100%;
     }
+        .popup-container {
+            display: flex;
+            flex-direction: column !important;}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .container {
         max-width: 540px;
     }
+        .popup-container {
+            display: flex;
+            flex-direction: column !important;
+        }
 }
 
 .custom-container {
@@ -11032,6 +11039,7 @@ body {
 
 .popup-container {
     display: flex;
+    flex-direction: row;
     width: 80%;
     height: 70%;
     background-color: white;
