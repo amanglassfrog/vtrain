@@ -50,70 +50,40 @@ export default function BrandSlider1() {
             <Slider {...settings} className="row brand-active">
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u1.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo1.png" alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u2.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo2.png" alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u3.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo3.png" alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u4.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo4.png" alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u5.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo5.png" alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u6.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo6.png" alt="brand" /></Link>
                     </div>
                 </div>
                 <div className="col">
                     <div className="brand__item">
-                        <Link href="#"><img src="/u7.png" alt="brand" /></Link>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u8.png" alt="brand" /></Link>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u9.png" alt="brand" /></Link>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u10.png" alt="brand" /></Link>
+                        <Link href="#"><img src="/logo8.png" alt="brand" /></Link>
                     </div>
                 </div>
                 
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u12.png" alt="brand" /></Link>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u13.png" alt="brand" /></Link>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/u14.png" alt="brand" /></Link>
-                    </div>
-                </div>
             </Slider>
         </>
     )

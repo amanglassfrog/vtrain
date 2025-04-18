@@ -13,11 +13,10 @@ export default function Footer1() {
                                         <div className="footer__logo logo">
                                             <Link href="/"><img src="/vlogo2.png" alt="img" /></Link>
                                         </div>
-                                        <p>when an unknown printer took galley of type and scrambled it to make pspecimen bookt
-                                            has.</p>
+                                        <p>We help you convert your dreams into reality</p>
                                         <ul className="list-wrap m-0 p-0">
                                             <li className="address">94, Gobind Nagar , Racecourse (Near Gurudwara) Dehradun 248001</li>
-                                            <li className="number">+91 9999 256 360 <br></br>
+                                            <li className="number">+91 9999256360  <br></br>
 +91 6396 745 354</li>
                                             <li className="socials">
                                                 <Link href="https://www.facebook.com/profile.php?id=100064516433959"><i className="fab fa-facebook-f" /></Link>
@@ -60,9 +59,11 @@ export default function Footer1() {
                                     <h4 className="fw-title">Working Hours</h4>
                                     <div className="footer__working-list">
                                         <div className="footer__working-item">
-                                            <span className="day">Mon - Fri</span>
-                                            <span className="time">8:00 AM - 5:00 PM</span>
+                                            <span className="day">Monday to Sunday  </span>
+                                            <span className="time">10:30 am to 7:30 pm</span>
                                         </div>
+                                        <div className="footer__working-item">
+                                            <span className="day">Call/WhatsApp: 9am to 9pm (Same day response) </span></div>
                                         
                                     </div>
                                 </div>

@@ -18,10 +18,10 @@ export default function Courses() {
                                 <div className="col-xl-5 col-lg-6">
                                     <div className="about__title-wrap">
                                         <div className="section__title">
-                                            <span className="sub-title">MBBS</span>
-                                            <h2 className="title tg-svg">MBBS (Bachelor of Medicine, Bachelor of Surgery) </h2>
+                                            <span className="sub-title">MBBS/MD</span>
+                                            <h2 className="title tg-svg">MBBS/MD (Bachelor of Medicine, Bachelor of Surgery) </h2>
                                         </div>
-                                        <p className="fw-medium">Thinking about pursuing your dream of becoming a doctor in another country? This guide provides you with the key information and a list of the documents you'll generally need to apply for MBBS programs in Russia, Kyrgyzstan, Kazakhstan, Uzbekistan, Nepal, the Philippines, Belarus, Poland, Italy, Germany, and Georgia. Think of this as your essential roadmap to international medical studies!
+                                        <p className="fw-medium">Thinking about pursuing your dream of becoming a doctor in another country? This guide provides you with the key information and a list of the documents you'll generally need to apply for MBBS/MD programs in Russia, Kyrgyzstan, Kazakhstan, Uzbekistan, Nepal, the Philippines, Belarus, Poland, Italy, Germany, and Georgia. Think of this as your essential roadmap to international medical studies!
 </p>
                                         <p>Just like learning a new skill requires understanding the basics, applying to medical schools in different countries means getting familiar with their specific rules. We're here to help you take that crucial first step towards your medical aspirations.
 </p>

@@ -35,10 +35,10 @@ export default function TestimonalSlider2() {
                         <i className="fas fa-star" />
                         <i className="fas fa-star" />
                     </div>
-                    <p>“ From the moment I contacted Vtrain, my dream of studying MBBS abroad felt achievable. Their guidance on the application process for Russia was thorough and their visa assistance was invaluable. I'm now studying at my dream university, all thanks to their support!
+                    <p>“ From the moment I contacted Vtrain, my dream of studying MBBS/MD abroad felt achievable. Their guidance on the application process for Russia was thorough and their visa assistance was invaluable. I'm now studying at my dream university, all thanks to their support!
  “</p>
                     <div className="testimonial__avatar">
-                        <h4 className="name">Priya Sharma (MBBS in Russia)</h4>
+                        <h4 className="name">Priya Sharma (MBBS/MD in Russia)</h4>
                         
                     </div>
                 </div>

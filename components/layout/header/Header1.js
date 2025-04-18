@@ -61,7 +61,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 <li className="active "><Link href="/">Home</Link>
                                                    
                                             </li>
-                                            <li ><Link href="/mbbs-abroad" className="mbbs">MBBS Abroad</Link>
+                                            <li ><Link href="/mbbs-abroad" className="mbbs">MBBS/MD Abroad</Link>
                                                    
                                                 </li>
                                                 <li className=""><Link href="/courses">Courses</Link>

@@ -96,7 +96,7 @@ export default function CourseSlider1() {
                         </div>
                         <div className="courses__item-two-content">
                             <Link href="#" className="courses__item-tag" style={{ backgroundColor: '#E8F9EF', color: '#04BC53' }}>Medical</Link>
-                            <h5 className="title"><Link href="/course-details">MBBS (Bachelor of Medicine, Bachelor of Surgery) </Link></h5>
+                            <h5 className="title"><Link href="/course-details">MBBS/MD (Bachelor of Medicine, Bachelor of Surgery) </Link></h5>
                             
                             <div className="courses__item-bottom">
                                 

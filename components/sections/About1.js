@@ -30,13 +30,13 @@ export default function About1() {
                                     <h2 className="title tg-svg">Unlock Your <span className="position-relative"><span className="svg-icon" id="svg-3" data-svg-icon="assets/img/icons/title_shape.svg" />Global Education </span>
                                            Dream with Vtrain!</h2>
                                 </div>
-                                <p className="desc">Aiming for the USA, UK, or MBBS in Europe/Asia? Vtrain Global Studies makes your international study journey seamless. For 20+ years, we've been your dedicated advocate, prioritizing your best interests.
+                                <p className="desc">Aiming for the courses in USA, UK, France or MBBS/MD? Vtrain Global Studies makes your international study journey seamless. For 20+ years, we've been your dedicated advocate, prioritizing your best interests.
 We offer comprehensive support: personalized counseling, strategic admissions, simplified visa guidance, and a smooth transition (airport pickup, accommodation, and orientation).
                                     <ul>
                                        <strong> Why Vtrain?</strong>
 <li><strong>Your Advocate:</strong>We work for you.</li> 
 <li><strong>Strategic Applications:</strong> Maximizing your chances at the right universities.</li>
-<li><strong>Scholarship Success:</strong> Helping students secure significant funding in the USA & UK.</li>
+<li><strong>Scholarship Success:</strong> Helping students secure significant funding in the USA , UK & France.</li>
 <li><strong>Expert Guidance:</strong> Over two decades of trusted experience.</li>
 <li><strong>Credible Partner:</strong> Registered MSME company.</li>
 
@@ -46,12 +46,12 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                 <ul className="about__info-list list-wrap">
                                     <li className="about__info-list-item">
                                         <div className="icon"><i className="flaticon-support" /></div>
-                                        <p className="content">2000+ <br /> Expert consultants</p>
+                                        <p className="content">100+ <br /> Expert consultants</p>
                                     </li>
                                     
                                     <li className="about__info-list-item">
                                         <div className="icon"><i className="flaticon-graduation-cap" /></div>
-                                        <p className="content">18000+ <br /> Over Students</p>
+                                        <p className="content">1000+ <br /> Over Students</p>
                                     </li>
                                     
                                 </ul>

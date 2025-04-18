@@ -60,7 +60,7 @@ const PopupModal = ({ closePopup }) => {
           </button>
           <h2>Exclusive Offer!</h2>
           <p className="text-center sub-title">
-            A chance to win a $100 USD visa card and priority check-in at Indian airports for successful students.
+            Chance to win $100 USD cash on getting a student visa for any MBBS/MD course, Fill the form now!"
           </p>
           {error && <div style={{ color: "red" }}>{error}</div>}
           {successMessage && <div style={{ color: "green" }}>{successMessage}</div>}

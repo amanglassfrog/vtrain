@@ -16,7 +16,7 @@ export default function AboutUs() {
                                             <span className="sub-title">Who we are</span>
                                             <h2 className="title tg-svg">The Leading Global <span className="position-relative"><span className="svg-icon" id="about-svg" data-svg-icon="assets/img/icons/title_shape.svg" />Marketplace</span> for Learning and Instruction</h2>
                                         </div>
-                                        <p >Aiming for the USA, UK, or MBBS in Europe/Asia? Vtrain Global Studies makes your international study journey seamless. For 20+ years, we've been your dedicated advocate, prioritizing your best interests.
+                                        <p >Aiming for the USA, UK, or MBBS/MD in Europe/Asia? Vtrain Global Studies makes your international study journey seamless. For 20+ years, we've been your dedicated advocate, prioritizing your best interests.
 We offer comprehensive support: personalized counseling, strategic admissions, simplified visa guidance, and a smooth transition (airport pickup, accommodation, and orientation).
 </p>
                                         <p>Imagine studying in the USA, the UK, or pursuing your medical aspirations abroad... At Vtrain Global Studies, we turn those dreams into reality. Born in the serene Himalayas of Dehradun in 2002, our ethical foundation fuels our passion for helping you achieve international success.
@@ -48,7 +48,7 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
 </span>
                                             
                                         </div>
-                                        <p> Because your success is our only goal. We advocate for you, strategically targeting universities that fit your profile. Our long history includes securing impressive scholarships for students in the USA and UK. We're a registered company built on trust and proven results.
+                                        <p> Because your success is our only goal. We advocate for you, strategically targeting universities that fit your profile. Our long history includes securing impressive scholarships for students in the USA, UK & FRANCE We're a registered company built on trust and proven results.
 
 </p>
                                                                             
