@@ -10,8 +10,7 @@ export default function Banner1() {
                             <div className="banner__content">
                                 <img src="/assets/img/banner/bshape_01.png" alt="shape" className="shape alltuchtopdown" />
                                 <img src="/assets/img/banner/bshape_02.png" alt="shape" className="shape" />
-                                <span className="sub-title" >100% Satisfaction
-                                    Ensure </span>
+                                <span className="sub-title" >100% Satisfaction, We work for it! </span>
                                 <h3 className="title tg-svg"  >Step into medicine with an  <span className="position-relative"><span className="svg-icon" id="svg-2" data-svg-icon="assets/img/icons/title_shape.svg" />MBBS/MD degree abroad. </span> </h3>
                                 <p >Established in 2002, Vtrain Global Studies brings over 23 years of ethical and transparent guidance to students aspiring for international education. We specialize in facilitating admissions to quality MBBS/MD programs in destinations like Russia, Kyrgyzstan, and more, alongside pathways to renowned institutions in the USA, UK & FRANCE</p>
                                 <div className="banner__btn-wrap"  >
