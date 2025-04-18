@@ -52,7 +52,7 @@ const PopupModal = ({ closePopup }) => {
     <div className="popup-overlay">
       <div className="popup-container">
         <div className="popup-left col-xl-12 col-lg-6">
-          <img src="/mbbs.jpeg" alt="Offer" />
+          <img src="/doc3.png" alt="Offer" />
         </div>
         <div className="popup-right col-xl-12 col-lg-6">
           <button className="close-btn" onClick={closePopup}>
