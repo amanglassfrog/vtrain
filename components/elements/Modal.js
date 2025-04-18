@@ -73,7 +73,7 @@ const PopupModal = ({ closePopup }) => {
               value={formData.name}
               onChange={handleChange}
                           required
-                          className="col-6"
+                          className="col-5"
             />
             <input
               type="email"
@@ -92,7 +92,7 @@ const PopupModal = ({ closePopup }) => {
               value={formData.phone}
               onChange={handleChange}
                           required
-                          className="col-6"
+                          className="col-5"
             />
             <input
               type="text"
