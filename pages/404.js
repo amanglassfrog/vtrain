@@ -4,7 +4,7 @@ export default function Custom404() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Error Page">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Error Page">
                 <section className="error-area">
                     <div className="container">
                         <div className="row justify-content-center">
