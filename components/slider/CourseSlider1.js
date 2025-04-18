@@ -87,7 +87,7 @@ export default function CourseSlider1() {
                 <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
-                            <Link href="/course-details" className="shine__animate-link">
+                            <Link href="/courses" className="shine__animate-link">
                                 <img src="/assets/img/courses/course_thumb01.jpg" alt="img" />
                             </Link>
                             <div className="author">
@@ -111,7 +111,7 @@ export default function CourseSlider1() {
                 <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
-                            <Link href="/course-details" className="shine__animate-link">
+                            <Link href="/courses" className="shine__animate-link">
                                 <img src="/assets/img/courses/course_thumb02.jpg" alt="img" />
                             </Link>
                             <div className="author">
@@ -135,7 +135,7 @@ export default function CourseSlider1() {
                 <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
-                            <Link href="/course-details" className="shine__animate-link">
+                            <Link href="/courses" className="shine__animate-link">
                                 <img src="/assets/img/courses/course_thumb03.jpg" alt="img" />
                             </Link>
                             <div className="author">
@@ -159,7 +159,7 @@ export default function CourseSlider1() {
                 <div className="col-lg-12 col-xl-3">
                     <div className="courses__item-two shine__animate-item">
                         <div className="courses__item-two-thumb">
-                            <Link href="/course-details" className="shine__animate-link">
+                            <Link href="/courses" className="shine__animate-link">
                                 <img src="/assets/img/courses/course_thumb04.jpg" alt="img" />
                             </Link>
                             <div className="author">
