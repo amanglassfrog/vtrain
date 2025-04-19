@@ -86,51 +86,51 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                 </div>
                             </div>
                             <div className="row justify-content-center">
-                                <div className="col-lg-3 col-md-4 col-sm-6">
-                                    <div className="fact__item-two text-center">
-                                        <div className="fact__icon-two">
-                                            <i className="flaticon-webinar" />
-                                        </div>
-                                        <div className="fact__content-two">
-                                            <h3 className="count"><CounterUp end={325200} /></h3>
-                                            <p>Students Enrolled</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-4 col-sm-6">
-                                    <div className="fact__item-two text-center">
-                                        <div className="fact__icon-two">
-                                            <i className="flaticon-graduates" />
-                                        </div>
-                                        <div className="fact__content-two">
-                                            <h3 className="count"><CounterUp end={11399} /></h3>
-                                            <p>Top Class Courses</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-4 col-sm-6">
-                                    <div className="fact__item-two text-center">
-                                        <div className="fact__icon-two">
-                                            <i className="flaticon-countries" />
-                                        </div>
-                                        <div className="fact__content-two">
-                                            <h3 className="count"><CounterUp end={312} /></h3>
-                                            <p>World Countries</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-4 col-sm-6">
-                                    <div className="fact__item-two text-center">
-                                        <div className="fact__icon-two">
-                                            <i className="flaticon-trophy" />
-                                        </div>
-                                        <div className="fact__content-two">
-                                            <h3 className="count"><CounterUp end={590} /></h3>
-                                            <p>Award We Received</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                        <div className="fact__item-two text-center">
+                                                            <div className="fact__icon-two">
+                                                                <i className="flaticon-webinar" />
+                                                            </div>
+                                                            <div className="fact__content-two">
+                                                                <h3 className="count"><CounterUp end={1000} /></h3>
+                                                                <p>Students Enrolled</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                        <div className="fact__item-two text-center">
+                                                            <div className="fact__icon-two">
+                                                                <i className="flaticon-graduates" />
+                                                            </div>
+                                                            <div className="fact__content-two">
+                                                                <h3 className="count"><CounterUp end={10} />+</h3>
+                                                                <p>Top  Courses</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                        <div className="fact__item-two text-center">
+                                                            <div className="fact__icon-two">
+                                                                <i className="flaticon-countries" />
+                                                            </div>
+                                                            <div className="fact__content-two">
+                                                                <h3 className="count"><CounterUp end={10} />+</h3>
+                                                                <p> Countries</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                        <div className="fact__item-two text-center">
+                                                            <div className="fact__icon-two">
+                                                                <i className="flaticon-trophy" />
+                                                            </div>
+                                                            <div className="fact__content-two">
+                                                                <h3 className="count"><CounterUp end={7} /></h3>
+                                                                <p>Award We Received</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                         </div>
                     </section>
                    
