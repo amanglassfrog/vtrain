@@ -49,38 +49,63 @@ export default function BrandSlider1() {
         <>
             <Slider {...settings} className="row brand-active">
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo1.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/france.png" alt="brand" /></Link>
+                                                <h4 className="text-center">France</h4>
+
                     </div>
                 </div>
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo2.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/Kazakhstan.svg" alt="brand" /></Link>
+                                                <h4 className="text-center">Kazakhstan</h4>
+
                     </div>
                 </div>
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo3.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-center">
+                        <Link href="#"><img src="/kyrgyzstan.webp" alt="brand" /></Link>
+                        <h4 className="text-center">Kyrgyzstan</h4>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo4.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-center">
+                        <Link href="#"><img src="/nepal.png" alt="brand" /></Link>
+                        <h4 className="text-center">Nepal</h4>
                     </div>
                 </div>
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo5.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/philli.png" alt="brand" /></Link>
+                                                <h4 className="text-center">Philippines </h4>
+
                     </div>
                 </div>
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo6.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/russia.png" alt="brand" /></Link>
+                                                <h4 className="text-center">Russia</h4>
+
                     </div>
                 </div>
                 <div className="col">
-                    <div className="brand__item">
-                        <Link href="#"><img src="/logo8.png" alt="brand" /></Link>
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/uk.webp" alt="brand" /></Link>
+                                                <h4 className="text-center">United Kingdom</h4>
+
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/usa.webp" alt="brand" /></Link>
+                                                <h4 className="text-center">United States Of America</h4>
+
+                    </div>
+                </div><div className="col">
+                    <div className="brand__item flex flex-col justify-center items-cente">
+                        <Link href="#"><img src="/uzbekistan.jpeg" alt="brand" /></Link>
+                                                <h4 className="text-center">Uzbekistan</h4>
+
                     </div>
                 </div>
                 

@@ -86,7 +86,7 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                 </div>
                             </div>
                             <div className="row justify-content-center">
-                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                    <div className="col-lg-4 col-md-4 col-sm-6">
                                                         <div className="fact__item-two text-center">
                                                             <div className="fact__icon-two">
                                                                 <i className="flaticon-webinar" />
@@ -97,7 +97,7 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                    <div className="col-lg-4 col-md-4 col-sm-6">
                                                         <div className="fact__item-two text-center">
                                                             <div className="fact__icon-two">
                                                                 <i className="flaticon-graduates" />
@@ -108,7 +108,7 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                    <div className="col-lg-4 col-md-4 col-sm-6">
                                                         <div className="fact__item-two text-center">
                                                             <div className="fact__icon-two">
                                                                 <i className="flaticon-countries" />
@@ -119,7 +119,7 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="col-lg-3 col-md-4 col-sm-6">
+                                                    {/* <div className="col-lg-3 col-md-4 col-sm-6">
                                                         <div className="fact__item-two text-center">
                                                             <div className="fact__icon-two">
                                                                 <i className="flaticon-trophy" />
@@ -129,7 +129,7 @@ We offer comprehensive support: personalized counseling, strategic admissions, s
                                                                 <p>Award We Received</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                         </div>
                     </section>

@@ -3181,8 +3181,7 @@ textarea {
 }
 
 .brand__item img {
-    filter: grayscale(1);
-    opacity: 0.4;
+    
     height: -webkit-fill-available !important;
 }
 
